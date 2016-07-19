@@ -7,7 +7,7 @@ import com.vocalink.uam.data.AuthenticationResult;
  */
 public interface VocaLinkUAMService {
 
-    public AuthenticationResult authenticate();
+    public AuthenticationResult authenticate(String username, String password, String clientId);
 
 
 }
